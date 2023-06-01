@@ -1,0 +1,66 @@
+/* Centrer le formulaire et le titre */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Styliser les champs de saisie */
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styliser les boutons */
+  button[type="submit"] {
+    background-color: #7b1fa2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4a148c;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styliser les liens */
+  a {
+    color: #7b1fa2;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #4a148c;
+  }
+  

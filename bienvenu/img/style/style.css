@@ -1,0 +1,233 @@
+
+img {
+    width: 90px;
+    margin-left: 20PX;
+    
+  }
+  a{
+    color: black;
+    font-size: 24px;
+  }
+  h1,h2,h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 15px;
+    line-height: 58px;
+  }
+  h2{
+    font-size: 48px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  body{
+    background-color: black;
+  }
+  section{
+    height:100vh ;
+  }
+  #h{
+    padding-left: 20px;
+  }
+  #munu{
+  display: none;
+  margin-left: 0;
+  position: absolute;}
+  #Inscription_btn{
+    border: 2px solid #241B35;
+  }
+  #Inscription_btn:hover{
+    color: white;
+    background-color: #CB80FF;
+    
+  }
+  .defiler{
+    background: linear-gradient(black,#241B35,#CB80FF,black );
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+
+  #df{
+    padding: 20px;
+    
+  }
+  .title{
+    font-size: 24px;
+    line-height: 15px;
+    
+
+  }
+  .exper{
+    font-size:20px;
+    line-height: 30px;
+  }
+  .img_fil{
+    width: 230PX;
+    HEIGHT: 200px;
+    margin: 10px;
+  }
+  footer{
+    
+    background-color: white;
+    
+    
+  }
+  
+  
+  
+
+  @media screen and (max-width: 1100px) {
+    
+    img {
+    width: 90px;
+    margin-left: 20PX;
+    
+  }
+  
+  
+  section{
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    
+    
+
+  }
+  a{
+    color: black;
+    font-size: 16px;
+  }
+  h1,h2,h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 150;
+    
+    line-height: 20px;
+    
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 10px;
+  }
+  .des{
+    display: none;
+  }
+  #fr{
+    background-image:url(img/p4.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+  }
+  #sd{
+    background-image:url(img/M.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    
+    
+  }
+  #section{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .dec{
+    margin-left: 150px;
+  }
+  .navbar{
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: rgba(22, 37, 61, 0.599);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(9px);
+      margin-left: -100%;
+      transition: all 0.5s ease;
+  }
+  #munu{
+      height: 50px;
+      display: block;
+      right: 20px;
+      z-index: 2;
+      
+      position: absolute;
+
+      
+  }
+  .navbar.mobile-menu{
+      margin-left: 0;
+  }
+  li{
+      margin: 25px 0;
+      font-size: 1.3em;
+      
+  }
+  a{
+      color: rgb(255, 255, 255);
+      
+  }
+
+  .defiler{
+    background: linear-gradient(black,#241B35,#CB80FF,black );
+    width: 150px;
+    height: 230px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+
+  #df{
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #st{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .title{
+    font-size: 19px;
+    line-height: 10px;
+    
+
+  }
+  .exper{
+    font-size:19px;
+    line-height: 20px;
+  }
+  .img_fil{
+    width: 130PX;
+    HEIGHT: 100px;
+    margin: 10px;
+  }
+  a{
+    line-height: 10px;
+  }
+
+  }

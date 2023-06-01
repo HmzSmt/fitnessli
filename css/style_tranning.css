@@ -1,0 +1,93 @@
+header{
+    background-color:white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+#logo{
+    width:75PX;
+    
+}
+#div_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo_paramettre{
+    width: 45px;
+}
+#parametre{
+    margin-right: 20px;
+}
+
+
+
+#vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#p{
+    font-size: 80px;
+    font-family: cursive ;
+}
+#div_p{
+    display: flex;
+    justify-content: center ;
+    justify-content: center;
+}
+
+.photos{
+    width: 150px;
+
+}
+p{
+    font-size: 33px;
+}
+.program{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding: 30px;
+}
+
+.an{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.636);
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+.an span{
+    display: inline-block;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition:
+    transform 0.15 ease-out,
+    color 0.15 ease-out,
+    background-color 0.15 ease-out,
+
+}
+.an:hover span{
+    transform: translate(-6px,-6px);
+    color: white;
+    background: black;
+}

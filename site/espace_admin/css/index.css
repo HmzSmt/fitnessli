@@ -1,0 +1,74 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Conteneur des liens */
+.links-container {
+    text-align: left;
+}
+.admin-form {
+  margin-top: 10px;
+}
+
+.admin-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Style des liens */
+a {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+/* Effet hover pour les liens */
+a:hover {
+    background-color: #3e8e41;
+}
+
+/* Styles pour les rectangles d'admins */
+.admin-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+
+/* Style des titres dans les rectangles d'admins */
+.admin-rectangle h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style des avatars dans les rectangles d'admins */
+.admin-rectangle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

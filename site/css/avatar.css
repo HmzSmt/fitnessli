@@ -1,0 +1,119 @@
+#capture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#capture img {
+  width: 500px; /* Ajustez la taille souhaitée */
+  height: 500px; /* Ajustez la taille souhaitée */
+  position: absolute;
+  top: -125px;
+  left: auto;
+  margin: auto;
+}
+
+#bg {
+  z-index: 0;
+}
+
+#body {
+  z-index: 1;
+}
+
+#skin {
+  z-index: 2;
+}
+
+#clothes {
+  z-index: 3;
+}
+
+#EXOSSIERS {
+  z-index: 4;
+}
+
+#eye {
+  z-index: 5;
+}
+
+#cap {
+  z-index: 6;
+}
+
+#th {
+  z-index: 7;
+}
+
+
+#mergedImage {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn{
+  margin-top: 200px;
+  padding-top: 100px;
+}
+
+
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  background-color: #7b1fa2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #4a148c;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+

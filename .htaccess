@@ -1,0 +1,2 @@
+RewriteEngine on
+ErrorDocument 404 /page404.php

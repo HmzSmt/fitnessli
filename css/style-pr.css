@@ -1,0 +1,118 @@
+*{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+}
+#droit{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 35%;
+    height: 100vh;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.decal{
+    padding-left: 20px;
+    border-bottom:1px solid #919191;
+}
+#g{
+    width: 65%;
+}
+p{
+    color: black;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+  /* Styles pour le thème clair */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+  /* Styles pour le thème sombre */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+  /* Styles pour le bouton bascule en mode sombre */
+#toggle.dark-theme::before {
+    transform: translateX(35px);
+    background-color: #15181F;
+}
+
+  /* Styles pour le bouton bascule en mode clair */
+#toggle.light-theme::before {
+    transform: translateX(0px);
+    background-color: #ccc;
+}
+/* Styles pour le mode sombre */
+[data-theme="dark"] {
+    --background-color: #15181F;
+    --text-color: #FFFFFF;
+}
+
+[data-theme="dark"] a {
+    color: #FFFFFF;
+}
+
+[data-theme="dark"] #droit {
+    background-color: #282C35;
+}
+
+[data-theme="dark"] .decal {
+    border-bottom: 1px solid #919191;
+}
+
+[data-theme="dark"] p {
+    color: #FFFFFF;
+}
+[data-theme="dark"] #g {
+    background-color: #282c359b;
+}
+#toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 17px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#toggle:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+#toggle:checked:before {
+    transform: translateX(26px);
+}
+
+#toggle:focus:before {
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+}
+#toggle:checked {
+    background-color: #ccc;
+}

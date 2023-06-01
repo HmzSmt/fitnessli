@@ -1,0 +1,154 @@
+
+
+/* Introduction section */
+.intro {
+  background-color: #ead4f8;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #6a1b9a;
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #4a148c;
+  line-height: 1.5;
+}
+
+span {
+  font-weight: bold;
+  font-size: 24px;
+  color: #7b1fa2;
+}
+
+/* Program section */
+section#program {
+  background-color: #cea7e6;
+  padding: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  color: #7b1fa2;
+  margin-bottom: 20px;
+}
+
+.program-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.program-item {
+  background-color: #e1bee7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.program-item span {
+  color: #4a148c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Footer section */
+.footer {
+  background-color: #6a1b9a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/* Styles de bouttons */
+#prevBtn, #nextBtn {
+  background-color: #BE9CC7; /* couleur de fond */
+  border: none; /* suppression de la bordure */
+  color: white; /* couleur du texte */
+  padding: 10px 20px; /* marge intérieure */
+  text-align: center; /* alignement du texte */
+  text-decoration: none; /* suppression du soulignement du texte */
+  display: inline-block; /* affichage en ligne */
+  font-size: 16px; /* taille de police */
+  margin: 4px 2px; /* marges */
+  cursor: pointer; /* curseur au survol */
+  border-radius: 5px; /* bord arrondi */
+}
+
+#prevBtn:hover, #nextBtn:hover {
+  background-color: #872e7e; /* couleur de fond au survol */
+}
+
+#prevBtn:disabled, #prevBtn[disabled], #nextBtn:disabled, #nextBtn[disabled] {
+  opacity: 0.5; /* opacité du bouton désactivé */
+  cursor: not-allowed; /* curseur en mode non autorisé */
+}
+
+#prevBtn {
+  float: left; /* alignement à gauche */
+}
+
+#nextBtn {
+  float: right; /* alignement à droite */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#programme {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#exercices {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#exercices h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#exercices li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#exercices video {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}

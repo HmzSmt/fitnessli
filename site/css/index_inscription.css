@@ -1,0 +1,119 @@
+/* Centrer le formulaire et le titre */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  .progress {
+    width: 100%;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Styliser les champs de saisie */
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styliser les boutons */
+  button[type="button"],
+  button[type="submit"] {
+    background-color: #7b1fa2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="button"]:hover,
+  button[type="submit"]:hover {
+    background-color: #4a148c;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styliser les liens */
+  a {
+    color: #7b1fa2;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #4a148c;
+  }
+  
+  /* Définir les barres de progression */
+  .progress {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #7b1fa2;
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .partie-1 .progress-bar {
+    width: 33.33%;
+    background-color: #4a148c;
+  }
+  
+  .partie-2 .progress-bar {
+    width: 66.66%;
+    background-color: #4a148c;
+  }
+  
+  .partie-3 .progress-bar {
+    width: 100%;
+    background-color: #4a148c;
+  }
+  
+  /* erreur site */
+  .erreur {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <title>programme</title>
+    <style>
+        .photos {
+        width: 120px; /* Définissez la largeur souhaitée pour vos images */
+        height: auto; /* Assurez-vous de conserver le ratio hauteur/largeur */
+    }
+
+        #logo{
+            display:flex;
+            align-items: center;
+        }
+
+        #section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .program {
+      flex-basis: 50%;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div id="div_logo"><img id="logo" src="images/logo.png"></div>
+        <div id="paramettre">
+        <a href="../parametres/parametres.php">
+        <img id="logo_paramettre" src="images/pr.png"></a></div>
+        
+    </header>
+    <section id="vertical">
+        <div id="div_p">
+            <p id="p">Choisissez votre Entrainement</p>
+        </div>
+        <section id="section">
+            <div class="program">
+                <img class="photos" src="images/pushup.png">
+                <br>
+                <a href="PushUp.php" class="an" >
+                    <span>Push Up</span>
+                </a>
+
+                
+        
+            </div>
+
+            <div class="program">
+                <img class="photos" src="images/pull.png">
+                <br>
+                <a href="Abdo.php" class="an" >
+                    <span>Abdominaux</span>
+                </a>
+        
+            </div>
+
+            <div class="program">
+                <img class="photos" src="images/leg.png">
+                <br>
+                <a href="Legs.php" class="an" >
+                    <span>Legs</span>
+                </a>
+        
+            </div>
+
+            <div class="program">
+                <img class="photos" src="images/cardio.png">
+                <br>
+                <a href="Cardio.php" class="an" >
+                    <span>Cardio</span>
+                </a>
+        
+            </div>
+
+        </section>
+
+    </section>
+</body>
+</html>
